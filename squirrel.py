@@ -169,7 +169,10 @@ def read_provenance(d: Path):
     pf = d / "PROVENANCE.json"
     if pf.exists():
         try:
-            declared = json.loads(pf.read_text(encoding="utf-8"))
+            # utf-8-sig: forgive the BOM that PowerShell's Set-Content stamps on
+            # files (bug #4 in our own README). A tool that documents a trap
+            # should not fall into it. Found in the field, Sep 16 2026.
+            declared = json.loads(pf.read_text(encoding="utf-8-sig"))
         except Exception as e:
             declared = {"_error": f"PROVENANCE.json present but unreadable: {e}"}
 
