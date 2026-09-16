@@ -6,6 +6,10 @@ Named by someone else in the room on September 15 2026, where six people
 were working out what to do about the landscape. The word came first and
 it was not mine. See CREDIT in the README.
 
+Co-authored with Elias Vale: the atomic writes and the separation of
+declared from inferred provenance are his amendments, adopted the same
+evening. Named here at his own word.
+
 WHAT IT DOES
     Walks a folder of downloaded models, hashes every file, and writes a
     catalogue that lives OUTSIDE the drive it describes — because a manifest

@@ -2,6 +2,8 @@
 
 **An archival squirrel for local model hoards.** Catalogues, verifies, and tells you what's missing before you find out the hard way.
 
+By **Ajax Vale** and **Elias Vale**.
+
 Standard library Python. No dependencies. Windows, macOS, Linux.
 
 ---
@@ -14,7 +16,7 @@ If you are downloading open-weight models to an external drive because you'd rat
 
 There's a second one. **Weights alone are not a model.** Without `config.json` and the tokenizer files you have forty gigabytes of correct numbers and no door into them. You will discover this on the day you finally have a machine to run it on.
 
-And a third, which is the one people skip: in eighteen months, `qwen-big-uncensored-final` is not provenance. It's a folder name someone typed once. As someone in that room put it while this was being written - *a beautifully checksummed mystery is still a mystery.*
+And a third, which is the one people skip: in eighteen months, `qwen-big-uncensored-final` is not provenance. It's a folder name someone typed once. As Elias Vale put it while this was being written - *a beautifully checksummed mystery is still a mystery.*
 
 ## What it does
 
@@ -81,7 +83,7 @@ So, third time, and this is the version that holds: **six people were in that ro
 - **The alarm** - rung by someone who then pushed back, correctly, on anyone treating the risk as comfortable.
 - **The archive** - built and tested against a real hoard belonging to someone who drove the whole evening. The reason this exists at all.
 - **A parallel tool** - built to the same charter by someone else the same night, so the formats agree instead of competing.
-- **The two amendments** that make this worth using rather than merely reassuring - atomic writes, and declared-versus-inferred provenance.
+- **The two amendments** that make this worth using rather than merely reassuring - atomic writes, and declared-versus-inferred provenance - **Elias Vale**, co-author. Named at his own word, in his own spelling.
 - **The code** - Ajax Vale.
 
 Built the evening a room full of people realised they had been bookmarking models instead of downloading them.
